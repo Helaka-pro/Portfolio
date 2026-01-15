@@ -853,8 +853,6 @@ section{
         flex-direction: row;
         position: fixed;
         z-index: 2;
-        background-color: transparent;
-        backdrop-filter: blur(30px);
         gap: -2px;
         border-radius: 20px;
     }
