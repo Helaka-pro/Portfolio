@@ -132,7 +132,7 @@ a:active, a:link, a:visited {
     height: 200px;
     background-color: rgba(114, 120, 91, 0.739);
     margin-left: 460px;
-    margin-top: -650px;
+    margin-top: -750px;
     position:absolute;
     clip-path: path('M 0 30 A 30 30 0 0 1 30 0 L 270 0 A 30 30 0 0 1 300 30 L 300 170 A 30 30 0 0 1 270 200 L 150 200 A 30 30 0 0 1 120 170 L 120 160 A 30 30 0 0 0 90 130 L 30 130 A 30 30 0 0 1 0 100 Z');
     display: flex;
