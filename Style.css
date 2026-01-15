@@ -132,7 +132,7 @@ a:active, a:link, a:visited {
     height: 200px;
     background-color: rgba(114, 120, 91, 0.739);
     margin-left: 460px;
-    margin-top: -250px;
+    margin-top: -150px;
     position:absolute;
     clip-path: path('M 0 30 A 30 30 0 0 1 30 0 L 270 0 A 30 30 0 0 1 300 30 L 300 170 A 30 30 0 0 1 270 200 L 150 200 A 30 30 0 0 1 120 170 L 120 160 A 30 30 0 0 0 90 130 L 30 130 A 30 30 0 0 1 0 100 Z');
     display: flex;
@@ -1063,19 +1063,19 @@ section{
         transition: transform 0.6s; 
         margin-top: 20px;
         margin-left: 50px;
-        animation: flip 1s linear infinite;
+        animation: flip 6s linear infinite;
     }
     .hobby1:hover .hobby-inner{
         transform: rotateY(180deg);
     }
     @keyframes flip {
-    0% {
-        transform: rotateY(0deg); 
+        0% {
+            transform: rotateY(0deg); 
+        }
+        100% {
+            transform: rotateY(180deg); 
+        }
     }
-    100% {
-        transform: rotateY(180deg); 
-    }
-}
     .hobby-front, .hobby-back {
     position: absolute;
     width: 100%;
@@ -1144,6 +1144,15 @@ section{
         transform-style: preserve-3d;
         text-align: center;
         transition: transform 1s;
+        animation: flip 6s linear infinite;
+    }
+    @keyframes flip {
+        0% {
+            transform: rotateY(0deg); 
+        }
+        100% {
+            transform: rotateY(180deg); 
+        }
     }
     .hobby3:hover .hobby3-inner{
         transform: rotateY(180deg); 
